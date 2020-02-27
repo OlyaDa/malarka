@@ -1,0 +1,83 @@
+.equipment {
+  margin-top: -120px;
+  margin-bottom: 115px;
+
+  .first {
+    margin-bottom: 132px;
+  }
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 154.9%;
+    color: #272727;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 190.4%;
+    color: #000000;
+    margin-bottom: 0;
+    max-width: 500px;
+  }
+
+  .item {
+    width: 40%;
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #272727;
+      margin-bottom: 0;
+      margin-top: 73px;
+
+      span {
+        font-weight: 600;
+        color: #F08D31;
+      }
+    }
+  }
+
+  .title-sec {
+    margin-bottom: 76px;
+  }
+
+  .second {
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #272727;
+      width: 329px;
+      margin: 35px auto 0 auto;
+
+      span {
+        font-weight: 600;
+        color: #F08D31;
+      }
+    }
+  }
+
+  .image-first {
+    max-width: 326px;
+    max-height: 328px;
+  }
+
+  .image-second {
+    max-width: 425px;
+    max-height: 337px;
+  }
+}

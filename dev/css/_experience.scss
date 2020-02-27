@@ -1,0 +1,30 @@
+.experience {
+  overflow: hidden;
+  padding: 70px 0;
+  background: #fff;
+
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 154.9%;
+    color: #272727;
+    margin-bottom: 20px;
+    width: 518px;
+
+    span {
+      color: #F08D31;
+    }
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 190.4%;
+    color: #000000;
+  }
+}

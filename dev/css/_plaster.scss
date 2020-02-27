@@ -1,0 +1,51 @@
+.plaster {
+  background: linear-gradient(0deg, rgba(240, 141, 49, 0.89), rgba(240, 141, 49, 0.89)), url("../../public/images/bg-plaster.png") top left no-repeat;
+  background-size: cover;
+  padding: 69px 0 84px 0;
+  position: relative;
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 154.9%;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+  }
+
+  .image {
+    max-width: 159px;
+    max-height: 159px;
+  }
+
+   p {
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 154.9%;
+     text-align: center;
+     color: #FFFFFF;
+     max-width: 270px;
+     margin: 35px auto 0;
+   }
+
+  .image-left {
+    max-width: 18%;
+    //max-width: 227px;
+    //max-height: 31px;
+    position: absolute;
+    top: 58%;
+    left: 24.8%;
+  }
+
+  .image-right {
+    max-width: 18%;
+    //max-width: 227px;
+    //max-height: 31px;
+    position: absolute;
+    top: 58%;
+    right: 24.8%;
+  }
+}

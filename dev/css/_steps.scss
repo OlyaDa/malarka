@@ -1,0 +1,116 @@
+.steps {
+  padding-top: 112px;
+  position: relative;
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 154.9%;
+    color: #272727;
+    margin-bottom: 111px;
+  }
+
+  .row {
+    height: 495px;
+  }
+
+  .second, .third {
+    margin-top: -65px;
+  }
+
+  .circle {
+    width: 159px;
+    height: 159px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .item {
+    position: relative;
+  }
+
+  .text{
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #272727;
+      margin: 0 auto;
+      max-width: 318px;
+    }
+
+    .caption {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #272727;
+      margin: 35px auto 0;
+    }
+  }
+
+  .image {
+    position: absolute;
+    top: 200px;
+    width: 31px;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .number {
+    position: absolute;
+    top: -110px;
+    left: 11%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 164px;
+    line-height: 154.9%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+  }
+
+  .one {
+    left: 13%;
+  }
+
+  .button {
+    background: #F08D31;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 21px;
+    width: 427px;
+    display: inline-block;
+    height: 59px;
+    margin: 42px auto 0 auto;
+    &:hover {
+      background: #FDA24D;
+    }
+    .btn {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 154.9%;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 17px 131px;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+  }
+}

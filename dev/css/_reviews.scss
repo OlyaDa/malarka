@@ -1,0 +1,110 @@
+.reviews {
+  padding-top: 113px;
+  padding-bottom: 65px;
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 154.9%;
+    color: #272727;
+    margin-bottom: 73px;
+  }
+
+  .item {
+    margin: 32px 57px;
+    background: linear-gradient(270deg, #FFFFFF 0%, #F4F4F4 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+
+    .text {
+      padding: 26px 22px 24px 22px;
+    }
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #000000;
+    }
+
+    .name {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 154.9%;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0;
+  }
+
+  .slick-prev.slick-arrow {
+    left: -30px;
+  }
+
+  .slick-next {
+    right: -30px;
+  }
+
+  .slick-prev, .slick-next {
+    top: 50%;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #202020;;
+    outline: none;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: "";
+      height: 61px;
+      width: 61px;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid #D4AC89;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+  }
+
+  .slick-prev:active, .slick-next:active, .slick-prev:hover, .slick-next:hover {
+    span {
+      z-index: 3;
+      color: #FFFFFF;
+    }
+    &:after {
+      background: #F08D31;
+      border: 1px solid #F08D31;
+    }
+  }
+
+  .reviews-slider {
+    outline: none !important;
+  }
+
+}

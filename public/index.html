@@ -1,0 +1,860 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Malarka"/>
+    <meta property="og:description"
+          content=""/>
+    <meta property="og:image" content="<?php bloginfo(template_url);?>/images/logo.img">
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <title>Malarka</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="top">
+                    <div class="logo">
+                        <a href="/">
+                            <img class="logo" src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <span class="toggle-menu">
+                        <span></span>
+                    </span>
+                </div>
+
+                <nav class="main-nav">
+                    <ul class=" menu list-reset">
+                        <li><a href="#" class="nav-link-new">О нас</a></li>
+                        <li><a href="#" class="nav-link-new">Изделия</a></li>
+                        <li><a href="#" class="nav-link-new">Отзывы</a></li>
+                        <li><a href="#" class="nav-link-new">Контакты</a></li>
+                        <li class="phone">
+                            <a href="tel:+380990000001">+38 (099) 000-00-01</a>
+                            <div class="button">
+                                <a href="#popup" class="btn popup-link"
+                                   onclick="setNameScroll('Получить консультацию, хедер первый скролл', 'Заполните форму ниже и получите консультацию специалиста');">
+                                    Получить консультацию
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu">
+                    <div class="logo">
+                        <a href="/">
+                            <img class="logo" src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="right-menu list-reset">
+                        <li><a href="#" class="nav-link-new">О нас</a></li>
+                        <li><a href="#" class="nav-link-new">Изделия</a></li>
+                        <li><a href="#" class="nav-link-new">Отзывы</a></li>
+                        <li><a href="#" class="nav-link-new">Контакты</a></li>
+                    </ul>
+                    <div class="phone">
+                        <a href="tel:+380999999999">+38 (099) 999 99 99</a>
+                        <div class="button">
+                            <a href="#popup" class="btn popup-link"
+                               onclick="setNameScroll('Заказать звонок, меню первый скролл', 'Заполните форму ниже и получите консультацию специалиста');">
+                                Заказать звонок
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--.......................MAIN.......................-->
+
+    <main class="content">
+
+        <!--.......................BANNER.......................-->
+
+        <div class="banner">
+
+            <div class="container">
+                <div class="banner-inner">
+                    <h2>
+                        МЕХАНИЗИРОВАННАЯ ШПАКЛЕВКА
+                        И БЕЗВОЗДУШНАЯ ПОКРАСКА
+                        <span>с гарантией 5 лет</span>
+                    </h2>
+
+                    <p class="check"><span class="icon-check"></span>Экономьте до 25% на каждом м2 </p>
+                    <p class="check"><span class="icon-check"></span>Производительность 150 м2 в день</p>
+
+                    <div class="button">
+                        <a href="#popup" class="btn popup-link"
+                           onclick="setNameScroll('Вызвать замерщика бесплатно, первый скролл', 'Заполните форму ниже и получите консультацию специалиста');">
+                            Вызвать замерщика бесплатно
+                        </a>
+                    </div>
+
+                    <div class="discount">
+                        <div class="poligon">
+                            <span>Sale</span>
+                        </div>
+                        <p>Скидка <span>25%</span> при заказе от 250м2 плоскостей до <span>01.03.2020</span></p>
+                        <div class="button">
+                            <a href="#popup" class="btn popup-link"
+                               onclick="setNameScroll('Рассчитать со скидкой, первый скролл', 'Заполните форму ниже и получите консультацию специалиста');">
+                                Рассчитать со скидкой
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--.......................EXPERIENCE.......................-->
+
+        <section class="experience">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <div class="image">
+                            <img src="images/experience.png" alt="услуги штукатурки">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <h5 class="title">13 лет опыта и более <span>2000</span> объектов</h5>
+                            <p>
+                                Мы одна из первых компаний в Киеве, которые предоставляют услуги механизированной
+                                штукатурки
+                                и покраски. Использование машинного способа позволяет экономить не только время,
+                                трудозатраты, но и деньги. Сухие смеси для машинного нанесения стоят дешевле, чем смеси
+                                для
+                                ручного способа. Цена работ за один м2 тоже значительно ниже. Ни для кого не секрет, что
+                                черновые отделочные работы – самые дорогостоящие. Приятно, когда удается сэкономить
+                                денежные
+                                средства, не потеряв в качестве.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................BENEFITS.......................-->
+
+        <section class="benefits">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <h5 class="title">Преимущества <span>нашей</span> технологии</h5>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="cards d-flex flex-column">
+                            <div class="item-row d-flex">
+                                <div class="item">
+                                    <span class="icon-percent"></span>
+                                    <p>На 30% выгоднее <br> Благодаря механизации <br>
+                                        вы можете сэкономить до <br> 100 грн с 1м2</p>
+                                </div>
+
+                                <div class="item">
+                                    <span class="icon-clock"></span>
+                                    <p>в 5 раз быстрее <br> ручного труда <br> Производительность <br> бригады 150 м2 за
+                                        смену</p>
+                                </div>
+                            </div>
+
+                            <div class="item-row d-flex">
+                                <div class="item">
+                                    <span class="icon-finance"></span>
+                                    <p>Качество выше в разы <br> За счет нанесения под <br> давлением 230 bar шпаклевка
+                                        <br> заходит в самые мелкие поры <br> и трещины</p>
+                                </div>
+
+                                <div class="item">
+                                    <span class="icon-warranty"></span>
+                                    <p>Более устойчивое покрытие <br> Использование <br> сертифицированных материалов
+                                        <br> позволяет дать гарантию на <br> работы 7 лет</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................WORKS.......................-->
+
+        <section class="works">
+            <div class="container">
+                <h5 class="title">Виды ремонтных работ</h5>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work1.png" alt="Подготовительные работы">
+                                </div>
+                                <p>
+                                    Подготовительные работы
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Подготовительные работы', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work2.png" alt="Обработка стен">
+                                </div>
+                                <p>
+                                    Обработка стен
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Обработка стен', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work3.png" alt=" Обработка потолка">
+                                </div>
+                                <p>
+                                    Обработка потолка
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Обработка потолка', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work4.png" alt="Облицовочные работы">
+                                </div>
+                                <p>
+                                    Облицовочные работы
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Облицовочные работы', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work5.png" alt="Машинная штукатура">
+                                </div>
+                                <p>
+                                    Машинная штукатура
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Машинная штукатура', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item position-relative">
+                            <div class="holder">
+                                <div class="image">
+                                    <img src="images/work6.png" alt="Поклейка обоев любой сложности">
+                                </div>
+                                <p>
+                                    Поклейка обоев любой <br>
+                                    сложности
+                                </p>
+                                <div class="button">
+                                    <a href="#popup" class="btn popup-link"
+                                       onclick="setNameScroll('Рассчитать стоимость, Поклейка обоев любой сложности', 'Заполните форму ниже и получите консультацию специалиста');">
+                                        Рассчитать стоимость
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................EQUIPMENT.......................-->
+
+        <div class="equipment">
+            <div class="container">
+                <div class="row d-flex align-items-center first">
+                    <div class="col-lg-5">
+                        <h5 class="title">Оборудование</h5>
+                        <p>Мы работаем отличными апаратами для шпаклевки и покраски. Они адаптированые под европейские
+                            электро сети. Даное оборудование отлично подходит для шпаклевки и покраски стен и потолков
+                            любых помещений</p>
+                    </div>
+
+                    <div class="col-lg-7 d-flex justify-content-between">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/eq1.png" alt="Graco mark V">
+                            </div>
+                            <p>
+                                <span>Graco mark V</span> - передовой шпаклевочный апарат(с возможностю покраски)
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/eq2.png" alt="CB210">
+                            </div>
+                            <p>
+                                <span>CB210</span> - окрасочный апарат(возможность покраски без мтроительных лесов до 5
+                                метров)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="title text-center title-sec">Используем профессиональные штукатурные станции и качественные
+                    смеси</h5>
+
+                <div class="row second">
+                    <div class="col-lg-6 d-flex align-items-center flex-column">
+                        <div class="image image-first">
+                            <img src="images/eq3.png" alt="Штукатурная станция">
+                        </div>
+                        <p>
+                            <span>Putzmeister mp 25</span> - штукатурная станция
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 d-flex align-items-center flex-column">
+                        <div class="image image-second">
+                            <img src="images/eq4.png" alt="Штукатурные смеси">
+                        </div>
+                        <p>
+                            <span> Штукатурные смеси</span> - Knauf75, Kreisel 501
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--.......................PLASTER.......................-->
+
+        <section class="plaster">
+            <div class="container">
+                <h5 class="title text-center">Штукатурим быстро, <br> обращаем внимание к деталям</h5>
+
+                <div class="image-left">
+                    <img src="images/circl-gorz.png" alt="circle">
+                </div>
+
+                <div class="image-right">
+                    <img src="images/circl-gorz.png" alt="circle">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex flex-column align-items-center">
+                        <div class="image">
+                            <img src="images/plaster1.png" alt="Армируем швы стекловолоконной сеткой">
+                        </div>
+                        <p>Армируем швы стекловолоконной сеткой</p>
+                    </div>
+
+                    <div class="col-lg-4 d-flex flex-column align-items-center">
+                        <div class="image">
+                            <img src="images/plaster2.png" alt="Выдерживаем правильную геометрию углов">
+                        </div>
+                        <p>Выдерживаем правильную геометрию углов</p>
+                    </div>
+
+                    <div class="col-lg-4 d-flex flex-column align-items-center">
+                        <div class="image">
+                            <img src="images/plaster3.png" alt="Делаем стены идеально ровными">
+                        </div>
+                        <p>Делаем стены идеально ровными</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................STEPS.......................-->
+
+        <section class="steps">
+            <div class="container">
+                <h5 class="title text-center">5 шагов к идеальному ремонту вашей мечты</h5>
+
+                <div class="image">
+                    <img src="images/circl-vert.png" alt="circle">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-start">
+                        <div class="item">
+
+                            <div class="number one">01</div>
+
+                            <div class="circle">
+                                <span class="icon-clipboard"></span>
+                            </div>
+                            <div class="text">
+                                <p class="caption text-center">ЗАЯВКА</p>
+                                <p class="text-center">Оставьте заявку на сайте или по телефону</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-end">
+                        <div class="item">
+
+                            <div class="number two">02</div>
+
+                            <div class="circle">
+                                <span class="icon-ruler"></span>
+                            </div>
+                            <div class="text">
+                                <p class="caption text-center">ЗАМЕР</p>
+                                <p class="text-center">Применяем лазерный нивелир для максимально точного замера</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row second">
+                    <div class="col-lg-6 d-flex flex-column justify-content-start">
+                        <div class="item">
+
+                            <div class="number three">03</div>
+
+                            <div class="circle">
+                                <span class="icon-paper"></span>
+                            </div>
+                            <div class="text">
+                                <p class="caption text-center">ДОГОВОР</p>
+                                <p class="text-center">Согласовываем смету заключаем договор</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-end">
+                        <div class="item">
+
+                            <div class="number four">04</div>
+
+                            <div class="circle">
+                                <span class="icon-roller"></span>
+                            </div>
+                            <div class="text mb-0">
+                                <p class="caption text-center">РАБОТА</p>
+                                <p class="text-center">Проводим работы строго в срок, прописанные в договоре</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row third">
+                    <div class="col-lg-6 d-flex flex-column justify-content-start">
+                        <div class="item">
+
+                            <div class="number five">05</div>
+
+                            <div class="circle">
+                                <span class="icon-contract"></span>
+                            </div>
+                            <div class="text mb-0">
+                                <p class="caption text-center">СДАЧА</p>
+                                <p class="text-center">Заказчик принимает работу и получает гарантию 5 лет</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex flex-column justify-content-end">
+
+                    </div>
+                    <div class="button">
+                        <a href="#popup" class="btn popup-link"
+                           onclick="setNameScroll('Оставить заявку, 5 шагов к ремонту', 'Заполните форму ниже и получите консультацию специалиста');">
+                            Оставить заявку
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--.......................EXAMPLES.......................-->
+
+        <section class="examples text-center">
+            <div class="container-fluid">
+                <h5 class="title text-center">Посмотрите примеры наших выполненых работ</h5>
+                <div class="examples-slider">
+                    <div class="image">
+                        <img src="images/ex2.png" alt="example">
+                    </div>
+                    <div class="image">
+                        <img src="images/ex3.png" alt="example">
+                    </div>
+                    <div class="image">
+                        <img src="images/ex2.png" alt="example">
+                    </div>
+                    <div class="image">
+                        <img src="images/ex1.png" alt="example">
+                    </div>
+                </div>
+
+                <div class="button">
+                    <a href="#popup" class="btn popup-link"
+                       onclick="setNameScroll('Хочу так же, Примеры наших выполненых работ', 'Заполните форму ниже и получите консультацию специалиста');">
+                        Хочу так же
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................SALE.......................-->
+
+        <section class="sale">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <h5 class="title">Заполните форму и получите скидку 25% при заказе от 250 м2 плоскостей до
+                            01.03.2020</h5>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="discount">
+                            <div class="poligon">
+                                <span>Sale</span>
+                            </div>
+                            <form class="order-main">
+                                <h4 class="form-title text-center"> Получить скидку </h4>
+
+                                <div class="inputs">
+                                    <input placeholder="ИМЯ" type="text" name="name" required>
+                                    <input placeholder="ТЕЛЕФОН" type="tel" name="phone" class="phoneidcl" required>
+                                    <input name="order" type="hidden" value="Получить скидку">
+
+                                    <input type="hidden" name="utm_source" value="<?php echo $_GET['utm_source']; ?>">
+                                    <input type="hidden" name="utm_medium" value="<?php echo $_GET['utm_medium']; ?>">
+                                    <input type="hidden" name="utm_campaign"
+                                           value="<?php echo $_GET['utm_campaign']; ?>">
+                                    <input type="hidden" name="utm_content" value="<?php echo $_GET['utm_content']; ?>">
+                                    <input type="hidden" name="utm_term" value="<?php echo $_GET['utm_term']; ?>">
+                                </div>
+
+                                <button class="disbutt" disabled>
+                                    <span class="btn">Отправить</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--.......................REVIEWS.......................-->
+
+        <section class="reviews">
+            <div class="container">
+                <h5 class="title text-center">Отзывы наших клиентов</h5>
+                <div class="reviews-slider">
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/reviews.png" alt="отзыв">
+                        </div>
+                        <div class="text">
+                            <p class="name">Алина Васнецова</p>
+                            <p>
+                                “Решили делать ремонт в квартире. Долго выбирали подрядчика, остановились на этой
+                                компании.
+                                Ребята оперативно выехали, сделали просчет стоимость и после подписания договора начали
+                                работу. Сделали все качестве и в срок. Рекомендуем”
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/reviews.png" alt="отзыв">
+                        </div>
+                        <div class="text">
+                            <p class="name">Алина Васнецова</p>
+                            <p>
+                                “Решили делать ремонт в квартире. Долго выбирали подрядчика, остановились на этой
+                                компании.
+                                Ребята оперативно выехали, сделали просчет стоимость и после подписания договора начали
+                                работу. Сделали все качестве и в срок. Рекомендуем”
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/reviews.png" alt="отзыв">
+                        </div>
+                        <div class="text">
+                            <p class="name">Алина Васнецова</p>
+                            <p>
+                                “Решили делать ремонт в квартире. Долго выбирали подрядчика, остановились на этой
+                                компании.
+                                Ребята оперативно выехали, сделали просчет стоимость и после подписания договора начали
+                                работу. Сделали все качестве и в срок. Рекомендуем”
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/reviews.png" alt="отзыв">
+                        </div>
+                        <div class="text">
+                            <p class="name">Алина Васнецова</p>
+                            <p>
+                                “Решили делать ремонт в квартире. Долго выбирали подрядчика, остановились на этой
+                                компании.
+                                Ребята оперативно выехали, сделали просчет стоимость и после подписания договора начали
+                                работу. Сделали все качестве и в срок. Рекомендуем”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--.......................CERTIFICATIONS.......................-->
+
+        <section class="certifications">
+            <div class="container">
+                <h5 class="title text-center">Сертификаты</h5>
+
+                <div class="certifications-slider">
+                    <div class="image">
+                        <img src="images/certificate.png" alt="certifications">
+                    </div>
+
+                    <div class="image">
+                        <img src="images/certificate.png" alt="certifications">
+                    </div>
+
+                    <div class="image">
+                        <img src="images/certificate.png" alt="certifications">
+                    </div>
+
+                    <div class="image">
+                        <img src="images/certificate.png" alt="certifications">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--.......................FOOTER.......................-->
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-2">
+                    <div class="phone">
+                        <p class="title">
+                            Телефоны:
+                        </p>
+                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                    </div>
+
+                    <div class="mail">
+                        <p class="title">
+                            Почта:
+                        </p>
+                        <a href="mailto:k@kristinainterior.com">k@kristinainterior.com</a>
+                    </div>
+
+                    <div class="address">
+                        <p class="title">
+                            Адрес:
+                        </p>
+                        <p>Киев, Ершова 66а</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6354.359596560293!2d30.613399579973418!3d50.403937413959255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a4bdb645b7%3A0x2331615ff8743c9c!2z0JTQvdC10L_RgNC-0LLRgdC60LDRjyDQvdCw0LHQtdGA0LXQttC90LDRjywgMjXQkCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sru!4v1582629116235!5m2!1sru!2sru"
+                            width="100%" height="354" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-4">
+                    <form class="order-main">
+                        <div class="holder">
+                            <h4 class="form-title"> Остались вопросы? </h4>
+                            <input placeholder="ИМЯ" type="text" name="name" required>
+                            <input placeholder="ТЕЛЕФОН" type="tel" name="phone" class="phoneidcl" required>
+                            <textarea placeholder="ВОПРОС" name="name"></textarea>
+                            <input name="order" type="hidden" value="Остались вопросы?">
+
+                            <input type="hidden" name="utm_source" value="<?php echo $_GET['utm_source']; ?>">
+                            <input type="hidden" name="utm_medium" value="<?php echo $_GET['utm_medium']; ?>">
+                            <input type="hidden" name="utm_campaign" value="<?php echo $_GET['utm_campaign']; ?>">
+                            <input type="hidden" name="utm_content" value="<?php echo $_GET['utm_content']; ?>">
+                            <input type="hidden" name="utm_term" value="<?php echo $_GET['utm_term']; ?>">
+
+                            <button class="disbutt" disabled>
+                                <span class="btn">Отправить</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom d-flex align-items-center justify-content-between">
+                <div class="social">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                    <a href="#"><span class="icon-facebook"></span></a>
+                </div>
+                <div class="logo">
+                    <a href="/">
+                        <img class="logo" src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--......................Developed by GenerationLeadStudio......................-->
+
+    <div class="devgen p-1 text-center">
+        <a href="http://GenerationLeadStudio.com" target="_blank"> <i class="far fa-copyright"></i> Developed by
+            GenerationLeadStudio</a>
+    </div>
+</div>
+
+<!--.....................pop-up...................-->
+
+<!--<div id="popup" class="mfp-hide popup">-->
+<!--<div class="container">-->
+<!--<div class="holder">-->
+
+<!--<div class="logo">-->
+<!--<a href="/">-->
+<!--<img class="logo" src="images/logo.png" alt="logo">-->
+<!--</a>-->
+<!--</div>-->
+
+<!--<form class="order-main">-->
+<!--<h4 class="form-title">-->
+<!--<span id="customTextForm">-->
+<!--Заполните форму и с вами свяжется наш специалист в течении 15 минут для БЕСПЛАТНОЙ консультации-->
+<!--</span>-->
+<!--</h4>-->
+<!--<input placeholder="Имя" type="text" name="name" required>-->
+<!--<input placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>-->
+<!--<input placeholder="Почта" type="text" name="email" required>-->
+<!--<input name="order" type="hidden" id="input_order">-->
+
+<!--<input type="hidden" name="utm_source" value="<?php echo $_GET['utm_source']; ?>">-->
+<!--<input type="hidden" name="utm_medium" value="<?php echo $_GET['utm_medium']; ?>">-->
+<!--<input type="hidden" name="utm_campaign" value="<?php echo $_GET['utm_campaign']; ?>">-->
+<!--<input type="hidden" name="utm_content" value="<?php echo $_GET['utm_content']; ?>">-->
+<!--<input type="hidden" name="utm_term" value="<?php echo $_GET['utm_term']; ?>">-->
+
+<!--<button class="disbutt" disabled>-->
+<!--<span class="btn">Отправить</span>-->
+<!--</button>-->
+<!--</form>-->
+
+<!--<p>-->
+<!--Подписывайтесь на наши социальные сети <br>-->
+<!--и будьте всегда в курсе новостей и новинок нашей <br> компании-->
+<!--</p>-->
+
+<!--<div class="social">-->
+<!--<a href="#">-->
+<!--<div class="circle">-->
+<!--<span class="icon-instagram"></span>-->
+<!--</div>-->
+<!--</a>-->
+
+<!--<a href="#">-->
+<!--<div class="circle">-->
+<!--<span class="icon-facebook"></span>-->
+<!--</div>-->
+<!--</a>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--...................pop-up end..................-->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Fontawesome -->
+<script defer src="js/all.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Slick -->
+<script src="js/slick.min.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- Input Mask -->
+<script src="js/jquery.inputmask.bundle.min.js"></script>
+<!-- Page Scroll -->
+<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<!-- Main JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+.sale {
+  background: linear-gradient(0deg, rgba(49, 171, 240, 0.89), rgba(49, 171, 240, 0.89)), url("../../public/images/bg-sale.png") top left no-repeat;
+  background-size: cover;
+  padding: 164px 0 126px 0;
+  position: relative;
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 154.9%;
+    color: #FFFFFF;
+    max-width: 530px;
+    margin: 0;
+  }
+
+  .discount {
+    background: linear-gradient(270deg, #FFFFFF 0%, #F4F4F4 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    max-width: 650px;
+    width: 100%;
+    padding: 52px 32px 48px 32px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form-title {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 154.9%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #272727;
+        margin-bottom: 33px;
+      }
+
+      .inputs {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      input {
+        border: 1px solid #C6C6C6;
+        box-sizing: border-box;
+        width: 251px;
+        height: 38px;
+        outline: none !important;
+        margin-bottom: 38px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.9%;
+        text-transform: uppercase;
+        color: #9C9C9C;
+        padding: 8px 15px;
+      }
+
+      input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color: #9C9C9C;
+      }
+      input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+        color: #9C9C9C;
+      }
+      input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+        color: #9C9C9C;
+      }
+      input::placeholder, textarea::placeholder {
+        color: #9C9C9C;
+      }
+
+      button {
+        background: #F08D31;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 21px;
+        width: 329px;
+        height: 49px;
+        display: inline-block;
+        margin: 0 auto;
+        border: none;
+        outline: none !important;
+
+        &:hover {
+          background: #FDA24D;
+        }
+
+        .btn {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 154.9%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          outline: none !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+
+    .poligon {
+      position: absolute;
+      right: 14px;
+      top: -18px;
+      width: 209px;
+      height: 36px;
+      background-color: red;
+      clip-path: polygon(23px 0, 100% 0, 100% 100%, 23px 100%, 0 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 171.9%;
+        text-align: center;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 23px;
+      }
+    }
+
+    //.button {
+    //  background: #F08D31;
+    //  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    //  border-radius: 21px;
+    //  display: inline-block;
+    //  width: 329px;
+    //  margin: 0;
+    //  &:hover {
+    //    background: #FDA24D;
+    //  }
+    //  .btn {
+    //    font-family: 'Montserrat', sans-serif;
+    //    font-style: normal;
+    //    font-weight: normal;
+    //    font-size: 16px;
+    //    line-height: 154.9%;
+    //    text-transform: uppercase;
+    //    color: #FFFFFF;
+    //    padding: 14px 48px;
+    //    box-shadow: none !important;
+    //    outline: none !important;
+    //  }
+    //}
+  }
+
+}
