@@ -3,6 +3,7 @@
   padding-bottom: 301px;
   background: url("../../public/images/bg-work.png") top left no-repeat;
   background-size: 100% 100%;
+  margin-top: -90px;
   position: relative;
 
   .title {
@@ -56,7 +57,7 @@
     background: #F08D31;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 21px;
-    width: 329px;
+    width: 98%;
     display: none;
     &:hover {
       background: #FDA24D;
@@ -69,10 +70,103 @@
       line-height: 154.9%;
       text-transform: uppercase;
       color: #FFFFFF;
-      padding: 14px 51px;
+      padding: 14px 0;
+      width: 98%;
       box-shadow: none !important;
       outline: none !important;
     }
   }
 
+  //media
+
+  @media (max-width: 991px) {
+    padding-top: 280px;
+    margin-top: -240px;
+
+    .item {
+      .holder {
+        p {
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .title {
+      margin-bottom: 23px;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .item {
+      height: 355px;
+    }
+  }
+
+  @media (max-width: 880px) {
+    .item {
+      height: 330px;
+    }
+  }
+
+  @media (max-width: 790px) {
+    .item {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .item {
+      height: 500px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .item {
+      height: 470px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .item {
+      height: 420px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .item {
+      height: 370px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
+    }
+
+    .item {
+      height: 330px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .item {
+      height: 305px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .item {
+      height: 280px;
+    }
+  }
 }

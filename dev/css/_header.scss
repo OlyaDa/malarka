@@ -279,31 +279,4 @@
       display: block;
     }
   }
-
-
-  @media (max-width: 480px) {
-    .mobile-menu {
-      .phone {
-        a {
-          font-size: 11px;
-        }
-
-        .button {
-          .btn {
-            font-size: 12px;
-          }
-        }
-      }
-    }
-  }
-
-  @media (max-width: 390px) {
-    .logo {
-      max-width: 140px;
-    }
-
-    .mobile-menu .title {
-      margin: 38px 0 0 20px;
-    }
-  }
 }

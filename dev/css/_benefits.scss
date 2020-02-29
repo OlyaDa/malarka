@@ -29,6 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0 10px;
 
     p {
       font-family: 'Montserrat', sans-serif;
@@ -39,6 +40,67 @@
       text-align: center;
       color: #272727;
       margin: 0;
+    }
+  }
+
+  //media
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .title {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .item-row {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+
+      .item {
+        width: 100%;
+        height: 200px;
+        padding: 10px 40px;
+
+        p {
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
+    }
+
+    .item-row .item {
+      width: 100%;
+      height: 215px;
+      padding: 10px 20px;
+    }
+
+    .icon-warranty:before, .icon-percent:before, .icon-finance:before, .icon-clock:before {
+      font-size: 50px;
     }
   }
 }

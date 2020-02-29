@@ -33,8 +33,6 @@
 
   .image-left {
     max-width: 18%;
-    //max-width: 227px;
-    //max-height: 31px;
     position: absolute;
     top: 58%;
     left: 24.8%;
@@ -42,10 +40,45 @@
 
   .image-right {
     max-width: 18%;
-    //max-width: 227px;
-    //max-height: 31px;
     position: absolute;
     top: 58%;
     right: 24.8%;
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .image-right, .image-left {
+      display: none;
+    }
+
+    .title {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .item {
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin: 20px auto 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
+    }
   }
 }

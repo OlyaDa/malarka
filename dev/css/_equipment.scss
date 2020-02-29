@@ -1,6 +1,6 @@
 .equipment {
   margin-top: -120px;
-  margin-bottom: 115px;
+  padding-bottom: 115px;
 
   .first {
     margin-bottom: 132px;
@@ -71,6 +71,10 @@
     }
   }
 
+  .cust-d {
+    display: none;
+  }
+
   .image-first {
     max-width: 326px;
     max-height: 328px;
@@ -80,4 +84,81 @@
     max-width: 425px;
     max-height: 337px;
   }
+
+  //media
+
+  @media (max-width: 991px) {
+    margin-top: -175px;
+    padding-bottom: 40px;
+
+    .title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .first {
+      margin-bottom: 40px;
+    }
+
+    .item {
+      width: 43%;
+      p {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin-top: -220px;
+
+    .first {
+      margin-bottom: 0;
+    }
+
+    .items {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .item {
+      width: 100%;
+      max-width: 425px;
+      margin-bottom: 30px;
+
+      .cust-d {
+        display: block;
+      }
+
+      .image.cust {
+        display: none;
+      }
+    }
+
+    .second {
+      p {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
+    }
+  }
+
 }

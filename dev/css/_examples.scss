@@ -10,7 +10,7 @@
     font-size: 44px;
     line-height: 154.9%;
     color: #272727;
-    margin-bottom: 53px;
+    margin-bottom: 33px;
     max-width: 1034px;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@
   }
 
   .slick-prev.slick-arrow {
-    left: 66.4%;
+    right: 29%;
   }
 
   .slick-next {
@@ -100,7 +100,8 @@
     background: #F08D31;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 21px;
-    width: 427px;
+    max-width: 427px;
+    width: 92%;
     display: inline-block;
     height: 59px;
     margin: 36px auto 0;
@@ -116,9 +117,115 @@
       line-height: 154.9%;
       text-transform: uppercase;
       color: #FFFFFF;
-      padding: 17px 156px;
+      max-width: 427px;
+      width: 92%;
+      padding: 17px 0;
       box-shadow: none !important;
       outline: none !important;
+    }
+  }
+
+  //media
+
+  @media (max-width: 1170px) {
+
+    .slick-prev.slick-arrow {
+      right: 31%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 0;
+    padding-bottom: 40px;
+
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .slick-center {
+      transform: scale(1.8);
+    }
+
+    .slick-next {
+      right: 16%;
+    }
+
+    .slick-prev.slick-arrow {
+      right: 25%;
+    }
+  }
+
+  @media (max-width: 835px) {
+    .slick-prev.slick-arrow {
+      right: 28%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 767px) {
+
+    .icon-left:before, .icon-right:before {
+      font-size: 16px;
+    }
+
+    .slick-prev.slick-arrow {
+      right: 25%;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: 0;
+      width: 55px;
+      height: 55px;
+      &:after {
+        height: 41px;
+        width: 41px;
+      }
+    }
+  }
+
+
+  @media (max-width: 640px) {
+    .slick-prev.slick-arrow {
+      right: 27%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .title {
+      margin-bottom: 30px;
+    }
+
+    .slick-prev, .slick-next {
+      top: 50%;
+    }
+
+    .slick-next {
+      right: 0;
+    }
+
+    .slick-prev.slick-arrow {
+      left: 0;
+    }
+
+    .image {
+      margin: 20px 0 30px 0;
+    }
+
+    .button {
+      margin: 10px auto 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
     }
   }
 }

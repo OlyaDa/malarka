@@ -145,4 +145,50 @@
     text-decoration: none;
     color: #272727;
   }
+
+  //media
+
+  @media (max-width: 1200px) {
+    .map {
+      text-align: end;
+    }
+
+    iframe {
+      width: 90%;
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 1048px) {
+    .col-lg-2 {
+      max-width: 17.666667%;
+    }
+
+    .col-lg-4 {
+      max-width: 32.333333%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+
+    .col-lg-2, .col-lg-4 {
+      max-width: 100%;
+    }
+
+    .phone, .mail, .address {
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      margin: 20px 0 30px 0;
+    }
+
+    form {
+      margin-bottom: 30px;
+      margin-right: auto;
+    }
+  }
+
 }

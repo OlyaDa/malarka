@@ -12,7 +12,7 @@
     line-height: 154.9%;
     color: #272727;
     margin-bottom: 20px;
-    width: 518px;
+    max-width: 518px;
 
     span {
       color: #F08D31;
@@ -26,5 +26,48 @@
     font-size: 16px;
     line-height: 190.4%;
     color: #000000;
+    max-width: 626px;
+  }
+
+  //media
+
+  @media (max-width: 1100px) {
+    .title {
+      max-width: 100%;
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0;
+
+    p {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .image {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
+    }
   }
 }

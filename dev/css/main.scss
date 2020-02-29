@@ -299,9 +299,9 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 195.5%;
-    color: #F08D31;
+    color: #fff;
     text-decoration: none;
     &:hover {
       text-decoration: none;
@@ -315,158 +315,103 @@ img {
 /////////////////////POPUP///////////////////
 
 .mfp-close-btn-in .mfp-close {
-  color: #333;
+  color: #000;
   top: 8px;
   right: 3px;
 }
 
 .popup {
-  background: #FFFFFF;
-  max-width: 424px;
+  max-width: 335px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
   position: relative;
-  padding: 18px 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-
-  .holder {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    border: 2px solid #D4AC89;
-    padding: 33px 25px 27px 25px;
-  }
+  padding: 39px 3px 49px 3px;
+  background: linear-gradient(270deg, #FFFFFF 0%, #F4F4F4 100%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
 
   .logo {
-    max-width: 173px;
-    max-height: 55px;
-    margin-bottom: 46px;
+    max-width: 151px;
+    max-height: 37px;
+    margin-bottom: 44px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  p {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 175.5%;
-    text-align: center;
-    letter-spacing: 0.055em;
-    color: #000000;
-    margin-bottom: 33px;
-  }
-
   form {
     width: 100%;
-    background: #FFFFFF;
-    border-radius: 5px;
 
     .form-title {
-      font-family: "Lato", sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 175.5%;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 154.9%;
       text-align: center;
-      letter-spacing: 0.055em;
-      color: #000000;
-      margin-bottom: 35px;
+      text-transform: uppercase;
+      color: #272727;
+      margin-bottom: 36px;
     }
 
     input {
-      border: 1px solid #D4AC89;
-      box-sizing: border-box;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 5px;
-      width: 100%;
-      height: 45px;
+      border: 1px solid #C6C6C6;
+      width: 92%;
+      height: 38px;
       outline: none !important;
-      margin-bottom: 25px;
+      margin-bottom: 28px;
 
-      font-family: 'Lato', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 215.5%;
-      letter-spacing: 0.055em;
-      color: #202020;
-      padding: 8px 18px;
+      line-height: 154.9%;
+      text-transform: uppercase;
+      color: #9C9C9C;
+      padding: 8px 15px;
     }
 
     input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-      color: #202020;
+      color: #9C9C9C;
     }
     input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-      color: #202020;
+      color: #9C9C9C;
     }
     input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-      color: #202020;
+      color: #9C9C9C;
     }
     input::placeholder, textarea::placeholder {
-      color: #202020;
+      color: #9C9C9C;
     }
 
     button {
       width: 100%;
-      height: 57px;
-      background: #D4AC89;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 5px;
-      margin-top: 7px;
+      height: 49px;
+      background: #F08D31;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 21px;
       border: none;
+      margin-top: 10px;
       outline: none !important;
-      margin-bottom: 37px;
 
       &:hover {
-        background: #E4BE9D;
+        background: #FDA24D;
       }
 
       .btn {
-        outline: none !important;
         width: 100%;
-        height: 57px;
-        border-radius: 5px;
-        font-family: 'Lato', sans-serif;
+        height: 49px;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 157%;
+        font-size: 14px;
+        line-height: 154.9%;
         text-align: center;
-        letter-spacing: 0.055em;
+        text-transform: uppercase;
         color: #FFFFFF;
+        outline: none !important;
         display: flex;
         align-items: center;
         justify-content: center;
-
-        span {
-          display: inline-block;
-          margin-left: 13px;
-        }
-      }
-    }
-  }
-
-  .social {
-    display: flex;
-    justify-content: space-evenly;
-
-    .circle {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #202020;
-    }
-
-    a {
-      text-decoration: none;
-
-      &:hover .circle {
-        background: #464646;
       }
     }
   }

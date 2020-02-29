@@ -70,7 +70,7 @@
     bottom: 51px;
     background: linear-gradient(270deg, #FFFFFF 0%, #F4F4F4 100%);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-    max-width: 650px;
+    max-width: 50%;
     width: 100%;
     padding: 41px 0 36px 0;
     display: flex;
@@ -111,11 +111,10 @@
       line-height: 171.9%;
       text-align: center;
       color: #272727;
-      width: 507px;
-      margin: 0 auto 24px auto;
+      max-width: 507px;
+      margin: 0 10px 24px 10px;
       span {
         font-weight: bold;
-        font-size: 21px;
         color: #F08D31;
       }
     }
@@ -141,6 +140,107 @@
         padding: 14px 48px;
         box-shadow: none !important;
         outline: none !important;
+      }
+    }
+  }
+
+  //media
+
+  @media (max-width: 991px) {
+    h2 {
+      width: 100%;
+      font-size: 38px;
+      line-height: 132.9%;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .check {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .button {
+      margin: 20px auto 40px;
+    }
+
+    .discount {
+      max-width: 650px;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 30px;
+      line-height: 132.9%;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .banner-inner {
+      justify-content: space-around;
+    }
+
+    h2 {
+      font-size: 16px;
+      line-height: 174.9%;
+      margin: 0;
+    }
+
+    .check {
+      font-size: 16px;
+      line-height: 154.9%;
+    }
+
+    .button {
+      margin: 0 auto 40px;
+      width: 100%;
+
+      .btn {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+        line-height: 154.9%;
+      }
+    }
+
+    .discount {
+      margin: 0 auto;
+      padding: 30px 23px 20px 23px;
+
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 171.9%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .button {
+        width: 100%;
+
+        .btn {
+          width: 100%;
+          padding: 12px 0;
+          font-size: 14px;
+          line-height: 154.9%;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 370px) {
+    .check {
+      font-size: 14px;
+
+      .icon-check:before {
+        margin-right: 0;
       }
     }
   }

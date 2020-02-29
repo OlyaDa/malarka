@@ -21,6 +21,7 @@
   }
 
   .circle {
+    position: relative;
     width: 159px;
     height: 159px;
     background: #FFFFFF;
@@ -73,8 +74,8 @@
 
   .number {
     position: absolute;
-    top: -110px;
-    left: 11%;
+    top: -67%;
+    left: -108%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -86,14 +87,15 @@
   }
 
   .one {
-    left: 13%;
+    left: -96%;
   }
 
   .button {
     background: #F08D31;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 21px;
-    width: 427px;
+    max-width: 427px;
+    width: 100%;
     display: inline-block;
     height: 59px;
     margin: 42px auto 0 auto;
@@ -108,9 +110,103 @@
       line-height: 154.9%;
       text-transform: uppercase;
       color: #FFFFFF;
-      padding: 17px 131px;
+      max-width: 427px;
+      width: 100%;
+      padding: 17px 0;
       box-shadow: none !important;
       outline: none !important;
+    }
+  }
+
+  //media
+
+
+  @media (max-width: 1024px) {
+    .number {
+      left: -100%;
+    }
+    .one {
+      left: -100%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .number {
+      left: -60%;
+      top: -98%;
+    }
+
+    .one {
+      top: -84%;
+    }
+
+    .title {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 38px;
+      line-height: 128.9%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .number {
+      left: -23%;
+      top: -98%;
+    }
+
+    .one {
+      left: -10%;
+    }
+
+    .title {
+      margin-bottom: 100px;
+    }
+
+    .button {
+      margin: -62px auto 0 auto;
+    }
+  }
+
+  @media (max-width: 575px) {
+
+    .title {
+      margin-bottom: 125px;
+    }
+
+    .image {
+      display: none;
+    }
+
+    .row {
+      height: 100%;
+    }
+
+    .item {
+      margin-bottom: 116px;
+    }
+
+    .second, .third {
+      margin: 0;
+    }
+
+    .step {
+      justify-content: center !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 25px;
+      line-height: 128.9%;
     }
   }
 }
